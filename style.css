@@ -33,14 +33,14 @@ a:hover {
 }
 
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://cdn.morguefile.com/imageData/public/files/k/kburggraf1/04/l/1429315047xshh6.jpg');
-  z-index:-1;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('http://cdn.morguefile.com/imageData/public/files/k/kburggraf1/04/l/1429315047xshh6.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #portfolio {
- background-image: url('http://cdn.morguefile.com/imageData/public/files/m/Moonlightway/09/l/14435578590konp.jpg');
+ background-image: url('http://cdn.morguefile.com/imageData/public/files/j/JilliBean/02/l/1424570595r2lm8.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
