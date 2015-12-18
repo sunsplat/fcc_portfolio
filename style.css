@@ -1,0 +1,100 @@
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#main {
+  background-attachment: fixed;  
+  background-image: url('http://cdn.morguefile.com/imageData/public/files/m/MarcusL/10/l/144471702796qhx.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about {
+  background-image: url('http://cdn.morguefile.com/imageData/public/files/m/MichaelKirsh/09/l/1443234652f2h2s.jpg');
+  z-index:-1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#portfolio {
+ background-image: url('http://cdn.morguefile.com/imageData/public/files/m/Moonlightway/09/l/14435578590konp.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact {
+  background-image: url('http://cdn.morguefile.com/imageData/public/files/p/pippalou/08/l/1377145084ryhkr.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button {
+    color: #000;
+    border: 2px solid #333333;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff !important;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 6em;
+  text-shadow: 2px 1px 2px #000;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+  font-size: 3em;
+}
+
+hr {
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 1px 2px #000;
+}
+
+.port div {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.port div img {
+  margin: 0px;
+  padding: 0px;
+  max-width:100%; 
+  max-height:100%;
+  display:block;
+}
