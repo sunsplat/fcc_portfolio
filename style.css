@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
   margin:0;
   padding:0;
   height: 100%;
@@ -32,7 +33,7 @@ a:hover {
 }
 
 #about {
-  background-image: url('http://cdn.morguefile.com/imageData/public/files/m/MichaelKirsh/09/l/1443234652f2h2s.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://cdn.morguefile.com/imageData/public/files/k/kburggraf1/04/l/1429315047xshh6.jpg');
   z-index:-1;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,6 +51,10 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.about-me {
+  border-radius: 50%;
 }
 
 button {
